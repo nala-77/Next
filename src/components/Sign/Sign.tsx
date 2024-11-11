@@ -70,7 +70,7 @@ const Sign = ({
         </form>
 
         {login ? (
-          <p className="text-end max-858:text-sm">Forgot your password?</p>
+          <p className="text-end text-[#33333399] font-normal mt-4 text-sm">Forgot your password?</p>
         ) : (
           <div>
             <label className="flex items-center space-x-2">
