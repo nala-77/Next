@@ -56,7 +56,7 @@ const Navbar = ({ logo, links }: navProps) => {
     <nav
       className={`   ${
         scrolling ? "shadow-lg bg-[#333333e8]" : "bg-[#FFFFFF33] "
-      } flex justify-between items-center px-60 py-5 max-2xl:py-2 text-[#FFFFFF] bg-[#FFFFFF33] fixed w-full max-2xl:px-9% max-594:px-30 text-xl  max-2xl:text-lg z-50`}
+      } flex justify-between items-center px-60 py-5 max-2xl:py-2 text-[#FFFFFF] fixed w-full max-2xl:px-9% max-594:px-30 text-xl  max-2xl:text-lg z-50`}
     >
       <div className="w-[133px] max-2xl:w-[90px] max-594:w-[75px]">
         <Image src={logo} alt="tourLogo" className="w-full" />
